@@ -22,6 +22,6 @@
 - **gemini.png : Gemini 網上的圖片。(來源 : https://blog.google/technology/ai/gemini-api-developers-cloud/)
 
 ## 操作流程：
-1. 開啟兩個terminal，進入具有HTML的資料夾，輸入以下指令：python3 -m http.server 6006 --bind 0.0.0.0。
+1. 開啟terminal，進入具有HTML的資料夾，輸入以下指令：python3 -m http.server 6006 --bind 0.0.0.0。
 
 2. 當使用者輸入文字並按下按鈕過後，系統將會回傳情緒預測回HTML。
