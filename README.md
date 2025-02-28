@@ -11,7 +11,7 @@
 完成後請將服務上線並提供網站網址，並將原始碼放上Github，回信時請您簡單說明使用了哪幾項服務功能。
 
 ## 環境 (Requirements)
-* Google Cloud Platform (GCP) CPU:N2D 空間:100G 防火牆:
+* Google Cloud Platform (GCP) CPU:N2D 空間:100G 防火牆:建立防火牆規則，開啟port並設定TCP/UDP。
 * Ubuntu 24.01 LTS x86/64
 * Docker 2.5.0-cuda12.4-cudnn9-devel
 * html
