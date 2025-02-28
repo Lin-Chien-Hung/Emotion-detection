@@ -1,1 +1,1 @@
-# Emotion-detection
+# 串接使用 Gemini 辨識文字中的情緒
