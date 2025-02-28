@@ -1,5 +1,7 @@
 # 串接使用 Gemini Api 達成辨識文字中的情緒含意
 
+![image](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Build_with_Gemini_dk_16_9_1.width-1200.format-webp.webp)
+
 * Title : 串接使用 Gemini Api 達成辨識文字中的情緒含意
 * Author : 林建宏 (Lin, Chien-Hung)
 
