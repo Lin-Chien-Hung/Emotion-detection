@@ -16,9 +16,10 @@
 ## 環境 (Requirements)
 ### 雲端伺服器(Cloud server)
 * Google Cloud Platform (GCP) CPU:N2D 空間:100G 防火牆:建立防火牆規則，開啟port並設定TCP/UDP。
-### 虛擬環境(Virtual Machine)
+### 虛擬環境(Virtual Machine, VM)
 * Ubuntu 24.01 LTS x86/64
 * Docker 2.5.0-cuda12.4-cudnn9-devel
+* Jupyter-lab
 * html
 * Python 3.11.10
 
@@ -30,3 +31,12 @@
 1. 開啟terminal，進入具有HTML的資料夾，輸入以下指令：python3 -m http.server 6006 --bind 0.0.0.0。
 
 2. 當使用者輸入文字並按下按鈕過後，系統將會回傳情緒預測回HTML。
+
+## 創建、撰寫流程
+1. GCP 環境建立.
+2. VM 環境建立.
+3. Docker 環境建立.
+4. Jupyter 套件安裝.
+5. 防火牆設定.
+6. 程式撰寫.
+7. 服務啟動.
