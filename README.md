@@ -27,11 +27,11 @@
 - **emotion_detection.html : 網頁程式介面，負責接收文字訊息，並回傳給Gemini Api 做情緒上的理解，最終回傳給使用者。
 - **gemini.png : Gemini 網上的圖片。(來源 : https://blog.google/technology/ai/gemini-api-developers-cloud/)
 
-## 操作流程：
+## 操作流程(Operation process)：
 1. 開啟terminal，進入具有HTML的資料夾，輸入以下指令：python3 -m http.server 6006 --bind 0.0.0.0。
 2. 當使用者輸入文字並按下按鈕過後，系統將會回傳情緒預測回HTML。
 
-## 創建、撰寫流程、服務功能
+## 創建、撰寫流程、服務功能(Create and write processes and service functions)
 1. GCP 環境建立 : 用於 VM 環境建立.
 2. VM 環境建立 : 用於程式撰寫、模型訓練的地方.
 3. Docker 環境建立 : 用於建立各種不同執行環境的地方.
