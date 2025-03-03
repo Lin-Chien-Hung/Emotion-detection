@@ -24,13 +24,14 @@
 * Python 3.11.10
 
 ## ⦿ (程式)資歷夾中具以下兩種檔案 ：
-- **emotion_detection.html : 網頁程式介面，負責接收文字訊息，並回傳給Gemini Api 做情緒上的理解，最終回傳給使用者。
-- **Emotion_detect.py : 
+- **emotion_detection.html : 網頁程式介面，負責接收文字訊息，並將接收到的資料傳回至後端(Emotion_detect.py)進行處理。
+- **Emotion_detect.py : 將接收到的前端資料發送給 Gemini Api 做情緒上的理解，並將處理結果回傳至前端(emotion_detection.html)進行輸出。
 - **gemini.png : Gemini 網上的圖片。(來源 : https://blog.google/technology/ai/gemini-api-developers-cloud/)
 
 ## ⦿ 操作流程(Operation process)：
-1. 開啟terminal，進入具有HTML的資料夾，輸入以下指令：python3 -m http.server 6006 --bind 0.0.0.0。
-2. 當使用者輸入文字並按下按鈕過後，系統將會回傳情緒預測回HTML。
+1. 開啟terminal，進入具有.py的資料夾，輸入以下指令：python3 Emotion_detect.py。
+2. 開啟terminal，進入具有HTML的資料夾，輸入以下指令：python3 -m http.server 6006 --bind 0.0.0.0。
+3. 當使用者輸入文字並按下按鈕過後，系統將會回傳情緒預測回HTML。
 
 ## ⦿ 創建、撰寫流程、服務功能(Create and write processes and service functions)
 1. GCP 環境建立 : 用於 VM 環境建立.
