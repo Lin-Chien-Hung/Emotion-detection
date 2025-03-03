@@ -25,6 +25,7 @@
 
 ## ⦿ (程式)資歷夾中具以下兩種檔案 ：
 - **emotion_detection.html : 網頁程式介面，負責接收文字訊息，並回傳給Gemini Api 做情緒上的理解，最終回傳給使用者。
+- **Emotion_detect.py : 
 - **gemini.png : Gemini 網上的圖片。(來源 : https://blog.google/technology/ai/gemini-api-developers-cloud/)
 
 ## ⦿ 操作流程(Operation process)：
