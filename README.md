@@ -2,7 +2,7 @@
 
 * Title : 串接使用 Gemini Api 達成辨識文字中的情緒含意
 * Author : 林建宏 (Lin, Chien-Hung)
-* 伺服器網址 : http://35.185.129.50:7890/emotion_detection.html
+* 伺服器網址 : http://34.80.32.234:7890/emotion_detection.html
 
 ![image](./gemini.png)
 
